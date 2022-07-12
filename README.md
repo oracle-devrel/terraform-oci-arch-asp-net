@@ -2,6 +2,10 @@
 
 [![License: UPL](https://img.shields.io/badge/license-UPL-green)](https://img.shields.io/badge/license-UPL-green) [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=oracle-devrel_terraform-oci-arch-tomcat-autonomous)](https://sonarcloud.io/dashboard?id=oracle-devrel_terraform-oci-arch-tomcat-autonomous)
 
+For details of the architecture, see [_Deploy highly available ASP.Net applications on Oracle Cloud Infrastructure_](https://docs.oracle.com/en/solutions/deploy-an-oci/index.html)
+
+![](./images/ha-aspnet-oci-arch.png)
+
 ## Introduction
 
 This repository provides a minimal example of how to quickly setup an automated deployment pipeline for ASP .NET applications on Oracle Cloud Infrastructure. Here we showcase a simple ASP .NET application, and provide the scaffolding to 
@@ -98,11 +102,6 @@ Then copy it into Web browser. Here is the example of the succesfull outcome:
 When you no longer need the deployment, you can run this command to destroy the resources:
 
     terraform destroy
-
-## URLs
-For details of the architecture, see [_Deploy highly available ASP.Net applications on Oracle Cloud Infrastructure_](https://docs.oracle.com/en/solutions/deploy-an-oci/index.html)
-
-![](./images/ha-aspnet-oci-arch.png)
 
 ## Contributing
 This project is open source.  Please submit your contributions by forking this repository and submitting a pull request!  Oracle appreciates any contributions that are made by the open source community.
