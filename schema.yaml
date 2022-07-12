@@ -227,11 +227,11 @@ variables:
     required: false
     title: "Instance Shape"
     description: "The compute shape to use."
-    default: "VM.Standard.E4.Flex"
+    default: "VM.Standard2.1"
     dependsOn:
       compartmentId: ${compartment_ocid}
 
-  flex_shape_ocpus:
+  shape_flex_ocpus:
     type: number
     required: false
     minimum: 1
@@ -253,7 +253,7 @@ variables:
             - instance_shape
             - "VM.Optimized3.Flex"
 
-  flex_shape_memory:
+  shape_flex_memory:
     type: number
     required: false
     minimum: 1
